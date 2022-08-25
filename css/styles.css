@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+/* 
+    Selector universal: Modifica los estilos de toda la página
+*/
+*{
+    list-style: none;
+    margin: 0;
+}
+
+/* Selector de etiqueta */
+h1{
+    color: #ff0d00;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* 
+    Selector ID
+    La etiqueta que tenga el atributo id, va a modificar el estilo cuando la llamemos desde el css con el #
+*/
+#parrafoAzul{
+    color: #0000ff;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*
+    Selector Class
+    Las etiquetas que tengan el atributo class, van a modificar sus estilos mediante css con el .
+*/
+
+.textoVerde{
+    color: #008000;
+}
+
+/*
+    Selectores Descendentes
+    Seleccionamos las etiquetas que queremos modificar desde el css mediante un espacio entre padre-hija
+*/
+
+div h2{
+    color: darkorchid;
+}
+
+p{
+    color: yellow;
+}
+
+#perrito{
+    width: 50rem;
+}
+
+div{
+    padding: 25px;
+    margin: 12px;
+    border: 10px solid red;
+}
