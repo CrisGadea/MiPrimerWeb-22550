@@ -8,6 +8,18 @@
     margin: 0;
 }
 
+body{
+    /*
+    background-color: #f5f5dc;
+    */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(92,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    
+    /*
+    background: linear-gradient(to bottom left , red, yellow);
+    */
+}
+
 /* Selector de etiqueta */
 h1{
     color: #ff0d00;
@@ -43,7 +55,7 @@ div h2{
 }
 
 p{
-    color: yellow;
+    color: rgb(255, 0, 115) !important;
 }
 
 #perrito{
@@ -54,4 +66,38 @@ div{
     padding: 25px;
     margin: 12px;
     border: 10px solid red;
+}
+
+footer{
+    text-align: center;
+}
+
+#btn{
+    background-color: aquamarine;
+    font-size: larger;
+    color: black;
+    border: 15px solid #ff0d00;
+    width: 30px;
+}
+
+#d-none{
+    display: none;
+}
+
+#div-t{
+    background-color: #ff0000;
+    width: 100px;
+    height: 100px;
+    transition: width 5s 300ms ease;
+    animation-name: color-change;
+    animation-duration: 5s;
+}
+
+@keyframes color-change {
+    from{background-color: #0000ff;}
+    to{background-color: #ff0000;}
+}
+
+#div-t:hover{
+    width: 300px;
 }
