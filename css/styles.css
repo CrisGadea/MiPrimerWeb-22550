@@ -78,6 +78,10 @@ footer{
     color: black;
     border: 15px solid #ff0d00;
     width: 30px;
+    border-radius: 35%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 #d-none{
