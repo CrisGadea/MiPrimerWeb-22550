@@ -27,15 +27,64 @@ let edad; // Variable no inicializada
 
 // Recibir informacion por teclado (a traves de un pop-up)
 //nombre = prompt("Escriba su nombre");
-edad = 25;
+//edad = 25;
 
-const ANIO_ACTUAL = 2022;
+//const ANIO_ACTUAL = 2022;
 
 
-console.log(edad);
+//console.log(edad);
 //alert("Bienvenido/a " + nombre);
-console.log(nombre);
+//console.log(nombre);
 
 // Mostrar el año actual
-alert("El año actual es: " + ANIO_ACTUAL);
-console.log(ANIO_ACTUAL);
+//alert("El año actual es: " + ANIO_ACTUAL);
+//console.log(ANIO_ACTUAL);
+
+var number1 = 4;// El simbolo + en textos se utiliza como concatenacion (es decir, para pegar dos textos uno al lado del otro)
+
+var number2 = 2;
+
+//console.log("El resultado de la division es: " + (number1 / number2)); 
+
+const texto = `addssfdffdslfdmfdlmop.()f,eopmopeerg`;
+
+//console.log(typeof false);
+
+// CONDICIONALES
+// Para pasar una variable String/texto a número isamos parseInt
+edad = parseInt(prompt("Indique su edad"));
+// IF - ELSE
+/*
+if (edad >= 18) {
+    alert("Sos mayor!");
+} else {
+    alert("Sos menor!");
+}
+*/
+
+// CONDICIONAL SWITCH
+
+switch (edad) {
+    case 10:
+        console.log("Sos menor de edad");
+        break;
+    case 18:
+        console.log("Sos mayor de edad");
+        break;
+    default:
+        console.log("Ingrese una edad correcta");
+        break;
+}
+
+// ESTRUCTURAS ITERATIVAS (REPETITIVAS)
+// BUCLE FOR
+/* for (let i = 0; i < 10; i++) {
+    console.log(i);
+} */
+
+//ESTRUCTURA WHILE
+let i = 0;
+while (i < 10) {
+    console.log(i);
+    i++;
+}
