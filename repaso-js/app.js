@@ -28,8 +28,18 @@ alert("Bienvenido/a a nuestra calculadora online!!");
 var numero1 = parseInt(prompt("Ingrese un número"));
 // Paso 2
 var numero2 = parseInt(prompt("Ingrese otro número"));
-// Paso 3
-var operacion = parseInt(prompt("Operación a realizar: 1) Suma, 2) Resta, 3) Multiplicacion, 4) Division"));
+
+
+
+// TAREA
+// LOGRAR  EJECUTAR EL PROGRAMA HASTA QUE EL USUARIO ELIJA CORRECTAMENTE LA OPERACION
+var isValid; // Podemos omitirlo si validamos dentro del while
+var operacion;
+// El While primero valida y luego ejecuta le ciclo
+// El Do While primero ejecuta una vez el codigo y luego valida
+do {
+    // Paso 3
+operacion = parseInt(prompt("Operación a realizar: 1) Suma, 2) Resta, 3) Multiplicacion, 4) Division"));
 
 // Creamos una variable de resultado para indicar luego el dato obtenido
 var resultado = 0;
@@ -57,12 +67,8 @@ switch (operacion) {
     default:
         alert("Por favor elija una opción correcta!");
         break;
-}
-
+    }
+} while (operacion < 1 || operacion > 4)
 // Paso 4
 console.log(resultado);
 alert("El resultado de la operación es: " + resultado);
-
-
-// TAREA
-// LOGRAR  EJECUTAR EL PROGRAMA HASTA QUE EL USUARIO ELIJA CORRECTAMENTE LA OPERACION

@@ -1,4 +1,4 @@
-/*
+
 console.log("Hello World");
 
 let invitados = [];
@@ -24,7 +24,7 @@ let nombre2 = prompt("Ingrese un segundo nombre");
 let nombre3 = prompt("Ingrese un tercer nombre");
 
 alert("Lista de nombres: " + nombre1 + " " + nombre2 + " " + nombre3);
-*/
+
 
 
 // DOM desde JS
@@ -48,3 +48,11 @@ console.log(h1.textContent);
 function verHoraActual(){
     document.getElementById("demo").innerHTML = Date();
 }
+/*
+const saludar = () =>{
+    const info = document.querySelector('#campoNombre').value;
+    console.log(info);
+}
+
+document.querySelector('#btn').addEventListener('click', saludar);
+*/
