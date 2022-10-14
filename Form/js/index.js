@@ -98,3 +98,6 @@ console.log(localStorage.getItem("nombreDeUsuario"));
 //localStorage.clear()
 
 // TODO: Agregar en la página (HTML) un nuevo elemento (div, h2, p) que muestre el nombre ingresado por el usuario (el que se envia en el form) => localstorage
+
+
+localStorage.setItem("nombreDeUsuario", "Jose")
